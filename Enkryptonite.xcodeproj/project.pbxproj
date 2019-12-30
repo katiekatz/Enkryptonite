@@ -14,6 +14,8 @@
 		02A0C19F1BEEA7E200EFB13B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A0C19E1BEEA7E200EFB13B /* Images.xcassets */; };
 		02A0C1A21BEEA7E200EFB13B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A0C1A01BEEA7E200EFB13B /* LaunchScreen.xib */; };
 		02A0C1AE1BEEA7E200EFB13B /* EnkryptoniteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0C1AD1BEEA7E200EFB13B /* EnkryptoniteTests.swift */; };
+		02A0C1B81BEECAF000EFB13B /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0C1B71BEECAF000EFB13B /* HelpViewController.swift */; };
+		02A0C1BC1BEF04DC00EFB13B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0C1BB1BEF04DC00EFB13B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		02A0C1A71BEEA7E200EFB13B /* EnkryptoniteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnkryptoniteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A0C1AC1BEEA7E200EFB13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A0C1AD1BEEA7E200EFB13B /* EnkryptoniteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnkryptoniteTests.swift; sourceTree = "<group>"; };
+		02A0C1B71BEECAF000EFB13B /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		02A0C1BB1BEF04DC00EFB13B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				02A0C1971BEEA7E200EFB13B /* FirstViewController.swift */,
 				02A0C1991BEEA7E200EFB13B /* SecondViewController.swift */,
 				02A0C19B1BEEA7E200EFB13B /* Main.storyboard */,
+				02A0C1BB1BEF04DC00EFB13B /* Constants.swift */,
+				02A0C1B71BEECAF000EFB13B /* HelpViewController.swift */,
 				02A0C19E1BEEA7E200EFB13B /* Images.xcassets */,
 				02A0C1A01BEEA7E200EFB13B /* LaunchScreen.xib */,
 				02A0C1931BEEA7E200EFB13B /* Supporting Files */,
@@ -159,6 +165,8 @@
 		02A0C1881BEEA7E200EFB13B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Katie Katz";
 				TargetAttributes = {
@@ -218,6 +226,8 @@
 				02A0C19A1BEEA7E200EFB13B /* SecondViewController.swift in Sources */,
 				02A0C1961BEEA7E200EFB13B /* AppDelegate.swift in Sources */,
 				02A0C1981BEEA7E200EFB13B /* FirstViewController.swift in Sources */,
+				02A0C1B81BEECAF000EFB13B /* HelpViewController.swift in Sources */,
+				02A0C1BC1BEF04DC00EFB13B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +423,7 @@
 				02A0C1B31BEEA7E200EFB13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A0C1B41BEEA7E200EFB13B /* Build configuration list for PBXNativeTarget "EnkryptoniteTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +432,7 @@
 				02A0C1B61BEEA7E200EFB13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
